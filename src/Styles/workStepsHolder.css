@@ -1,0 +1,22 @@
+@media (min-width:768px) {
+    .work-step:nth-child(odd) {
+        transform: translateY(30%);
+    }
+}
+
+
+
+.work-step.active .percent-stick {
+    flex: 1;
+}
+.work-step img {
+    transition: .6s opacity;
+}
+
+.work-step.active img {
+    opacity: 1;
+}
+
+.work-step.active .step-name span{
+    transform: translateX(0);
+}

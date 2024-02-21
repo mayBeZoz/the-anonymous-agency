@@ -1,0 +1,9 @@
+#main-bg {
+    background: repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 120px,
+        #3d3d3d 120px,
+        #3d3d3d 121px
+    );
+}
